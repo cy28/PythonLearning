@@ -5,7 +5,7 @@ import random
 
 print(random.random())  # 生成一个 0 到 1 之间的随机浮点数
 
-# 生成一个 0 到 1 之间的随机浮点数
+# 生成一个 1 到 3 之间的随机浮点数
 print(random.uniform(1, 3))
 
 # 2. randint(a, b)：返回一个 a 到 b 之间的随机整数。
