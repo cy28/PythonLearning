@@ -30,7 +30,7 @@ print(dict1)
 dict1.pop('school')
 print(dict1)  # {'name': '王五', 'age': '32', 'height': 175, 'sex': '男', 'job': '算法工程师', 'money': '55555'}
 
-# 第二种 popitem  随机弹出一个键值
+# 第二种 popitem  默认从后往前弹出一个键值
 dict1.popitem()
 print(dict1)  # {'name': '王五', 'age': '32', 'height': 175, 'sex': '男', 'job': '算法工程师'}
 
