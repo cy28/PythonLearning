@@ -20,6 +20,15 @@ maxvalue(12, 54)  # 54
 
 
 
+def get_sum(num1, num2, num3=100):
+    print(num1+num2+num3)
+
+
+get_sum(12, 28)  # 140
+get_sum(12, 28, 0)  # 40
+
+
+
 
 
 
