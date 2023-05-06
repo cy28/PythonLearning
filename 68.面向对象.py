@@ -47,7 +47,7 @@ class ClassName:
 
 
 class Person:  # 定义一个名为Person的类
-    def __init__(self, name, age):  # 定义初始化方法，self表示对象本身，name和age是对象的属性
+    def __init__(self, name, age):  # 定义属性的初始化方法，self表示对象本身，name和age是对象的属性
         self.name = name            # 初始化对象的name属性
         self.age = age              # 初始化对象的age属性
 
