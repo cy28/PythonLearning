@@ -5,6 +5,7 @@
 """
 # 下面是一个简单的代码示例，演示如何使用Python实现继承：
 
+
 # 父类
 class Animal:
     def __init__(self, name, age):
@@ -13,6 +14,7 @@ class Animal:
 
     def speak(self):
         pass
+
 
 # 子类
 class Dog(Animal):                          # 在子类中继承父类，只需要在参数列表中写上父类名即可
@@ -26,6 +28,7 @@ class Dog(Animal):                          # 在子类中继承父类，只需�
 
     def speak(self):
         return "Woof!"
+
 
 # 子类
 class Cat(Animal):
